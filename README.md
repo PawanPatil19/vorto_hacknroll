@@ -6,7 +6,7 @@ Ever wondered how many hours you could save TAing if Prof just gave you tutorial
 
 The model pipeline is as follows:
 - The user selects a PDF from their phone. 
-- The PDF is run through an OCR model to extract text.
+- The text is extracted from the PDF using Flutter library
 - This text is then summarized using Text Summarization AI (MeaningCloud API)
 - The summarized text is further processed with Rapid Automatic Keyword Extraction (RAKE). 
 - These keywords are not only used as slide titles but are also passed into a pre-trained HuggingFace diffusion model to generate images.
